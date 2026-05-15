@@ -43,7 +43,7 @@ Address | Content             | Description
 */
 
 /// @brief EEPROM Maximum size
-const uint32_t EEPROM_STORAGE_MAX_SIZE = 1024;
+const uint32_t EEPROM_STORAGE_MAX_SIZE = 512;
 
 class EEPROMStorage : public IByteStorage
 {

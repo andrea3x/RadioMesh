@@ -25,7 +25,7 @@ uint8_t simpleRNG(uint16_t size)
 #if defined(ESP32)
     uint8_t analogPin = A0;
 #else
-    uint8_t analogPin = GPIO0;
+    uint8_t analogPin = GPIO1;
 #endif
     val = 0;
     while (size) {
